@@ -34,13 +34,12 @@ class Drawing(QWidget):
         self.line(qp, 120, pen, Qt.DashDotLine)
         self.line(qp, 160, pen, Qt.DotLine)
         self.line(qp, 200, pen, Qt.DashDotDotLine)
-        pen.setDashPattern([1,4,8,4])
-        self.line(qp,240,pen,Qt.CustomDashLine)
+        pen.setDashPattern([1, 4, 8, 4])
+        self.line(qp, 240, pen, Qt.CustomDashLine)
 
 
 if __name__ == "__main__":
-    app=QApplication(sys.argv)
-    win=Drawing()
+    app = QApplication(sys.argv)
+    win = Drawing()
     win.show()
     sys.exit(app.exec())
-

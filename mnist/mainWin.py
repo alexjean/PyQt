@@ -108,7 +108,7 @@ class TrainWorker(QThread):
         self.mnist=data
 
     def run(self):
-        msg=Mnist.train(self.mnist)
+        msg = Mnist.train(self.mnist)
         self.finished.emit(msg)
 
 

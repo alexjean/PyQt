@@ -1,2 +1,18 @@
-.idea/
-__pycache__/
+if __name__ == "__main__":
+    app=QApplication(sys.argv)
+    win=$class$()
+    win.show()
+    sys.exit(app.exec())
+    $END$
+
+
+super($class$, self).$method$($end$)
+
+
+
+# -*- coding: utf-8 -*-
+# @Time    : ${DATE} ${TIME}
+# @Author  : AlexJean
+import sys
+from PyQt5.QtWidgets import *
+from PyQt5.QtCore import Qt
